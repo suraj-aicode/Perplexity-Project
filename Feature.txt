@@ -1,0 +1,31 @@
+- Authentication system
+- Chat with AI
+- Chat History
+- Message Storage
+- AI with internet research feature
+
+DataModling
+user { 
+    username :
+    _id : 
+    email : 
+    password :
+    verified :
+    createAt
+    updatedAt
+}
+
+chat {
+    _id : 
+    user : 
+    title : 
+    createAt : 
+    updatedAt :
+}
+
+Message {
+    _id : 
+    chat : 
+    content : 
+    role : [user, ai]
+}
